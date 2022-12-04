@@ -1,0 +1,74 @@
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.gradient{
+    background: rgb(26,75,79);
+    background: linear-gradient(90deg, rgba(26,75,79,1) 0%, rgba(72,173,179,1) 50%, rgba(26,75,79,1) 100%);
+}
+.page-header {
+    margin-top: 4rem;
+    font-size: 1rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-inner img {       
+    display: block;
+    height: auto; 
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 15px;
+ }
+.feature{
+    color: #fff;
+    padding: 2rem;
+}
+.feature ul li{
+    padding-left: 2rem;
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.sobre{
+    color: #fff;
+    padding: 10rem;
+    padding-bottom: 30px;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+.sobre2{
+    color: #fff;
+    padding: 10rem;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+.sobre2 img{
+    border-radius: 15px;
+    width: 90%;
+}
+.gallery{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    align-items: auto;
+}
+.gallery img{
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+.contacto{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: auto;
+    color: white;
+}
